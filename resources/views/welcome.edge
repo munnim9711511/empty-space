@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8" />
+  <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+
+
+    main</title>
+    <link rel="icon" type="image/gif/png" href="mouse_select_left.png">
+{{script("/js/jquery-3.3.1.min.js")}}
+{{script("/js/angular.min.js")}}
+{{script("/js/materialize.min.js")}}
+{{script("/js/script.js")}}
+{{script("/js/route.js")}}
+{{script("/js/app.js")}}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+{{css("/css/materialize.min.css")}}
+{{css("/css/style.css")}}
+</head>
+<body class=" z-depth-5">
+
+
+<div class="">
+  <nav class="#424242 grey darken-3">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><em>Empty Space </em></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+
+        <li><a href="#!/conatct-us">Advertise with empty space</a></li>
+        <li><a href="#!/FAQ">FAQ's</a></li>
+        <li><a href="#!/building">Building space</a></li>
+          <li><a href="#!/indoor-space">Indoor space</a></li>
+              <li><a href="#!/vehicle">Vehicles</a></li>
+              <li><a href="#!/list-space">List space</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+
+        <li><a href="#!/conatct-us">Advertise with empty space</a></li>
+        <li><a href="#!/FAQ">FAQ's</a></li>
+        <li><a href="#!/building">Building space</a></li>
+          <li><a href="mobile.html">Indoor space</a></li>
+            <li><a href="#!/vehicle">Vehicles</a></li>
+              <li><a href="#!/list-space">List space</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+      <ng-view></ng-view>
+
+
+<footer class="page-footer #000000 black">
+         <div class="container">
+           <div class="row">
+             <div class="col l6 s12">
+               <h5 class="white-text"> Empty Space </h5>
+               <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+             </div>
+             <div class="col l4 offset-l2 s12">
+               <h5 class="white-text">Links</h5>
+               <ul>
+                 <li><a class="grey-text text-lighten-3" href="#!">follow us from face book</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright">
+           <div class="container">
+           © 2018 Copyright Text
+           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+           </div>
+         </div>
+       </footer>
+
+
+</body>
+</html>
