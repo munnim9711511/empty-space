@@ -10,4 +10,7 @@ $(function(){
 //   });
 // }, 6000); // every 2 seconds
 
+  $('.materialboxed').materialbox();
+
+
 })
