@@ -1,9 +1,9 @@
-nav{
+/* nav{
   padding: 20px;
   padding-bottom: 20px;
   height: 100px;
 
-}
+} */
 
 /* .slider{
   height: 50%;
@@ -12,6 +12,18 @@ nav{
 .tabs-content.carousel .carousel-item { height: 100%; }
 .slides{
   height: 200px;
+} */
+
+
+/* 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 } */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }

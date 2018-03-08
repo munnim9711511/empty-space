@@ -1,11 +1,10 @@
 
 
-
-<div class="">
-  <nav class="#424242 grey darken-3 navbar ">
+<div class=" ">
+  <nav class="#424242 grey darken-3">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo hide-on-small-only"><em>Empty Space </em></a>
-        <a href="#!" class="hide-on-med-and-up center-align"><em>Empty Space </em></a>
+      <a href="#!" class="brand-logo hide-on-med-and-down"><em>Empty Space </em></a>
+
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
 
@@ -28,8 +27,6 @@
     </div>
   </nav>
 </div>
-
-
   <div class="carousel carousel-slider">
     <a class="carousel-item" href="#one!"><img src="/image/Indoor wall.jpg"></a>
     <a class="carousel-item" href="#two!"><img src="/image/outdoor wall.jpg"></a>
@@ -42,34 +39,30 @@
 
 </div>
 
-<div class="row">
+<div class="row c">
   <br>
   <div class="col m12 center-align">
-    <div class="col m4">
+    <div class="col m4 col s12">
       <a href="#!/vehicle">
-      <img src="/image/car_red.png" alt=""  class="grow" width="80%"></a>
-<p class="center-align"><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's
-  standard dummy text ever since the 1500s,</strong> </p>
+        <br>
+      <img src="/image/V.jpeg" alt=""  class="grow  circle"  width="50%"></a>
 
-
+      <p class="center-align"><strong>Vehicle to carry your brand image</strong> </p>
     </div>
-    <div class="col m4">
+    <div class="col m4 col s12">
       <a href="#!/building">
-  <img src="/image/city.png"  class="grow" alt="" width="90%">
+        <br>
+  <img src="/image/buildingm.jpeg"  class="grow circle" alt="" width="50%">
       </a>
 
-      <p class="center-align"><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s,</strong> </p>
+    <p class="center-align"><strong>Building to place billboards</strong> </p>
     </div>
-    <div class="col m4">
+    <div class="col m4 col s12">
       <a href="#!/out-door">
-      <img src="/image/Food-and-Beverage-Food-Court-Outdoor-Party-Food-Court-Area.png" alt="" class="circle grow " width="40%">
-      </a>
-      <p class="center-align"><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s,</strong> </p>
+        <br>
+      <img src="/image/indoor.jpeg" alt=""  class="grow  circle responsive-img"  width="50%"></a>
+
+      <p class="center-align"><strong>Indoor to place banners</strong> </p>
     </div>
   </div>
 
@@ -84,12 +77,12 @@ $(function(){
 
 
 
-  $('.carousel.carousel-slider').carousel({fullWidth: true,time_constant: 1000});
+   $('.carousel.carousel-slider').carousel({fullWidth: true,time_constant: 1000});
 
 
-  $('.carousel').carousel();
+
 setInterval(function() {
-  $('.carousel').carousel('next');
+  $('.carousel').carousel("next");
 }, 4000); // every 2 seconds
 
 })

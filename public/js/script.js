@@ -9,8 +9,7 @@ setInterval(function() {
      height:"700px"
    });
 }, 6000); // every 2 seconds
-  
-  // $('.materialboxed').materialbox();
 
+Materialize.updateTextFields();
 
 })
