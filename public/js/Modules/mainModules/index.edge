@@ -2,7 +2,7 @@
 
 
 <div class="">
-  <nav class="#424242 grey darken-3 ">
+  <nav class="#424242 grey darken-3 navbar ">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo hide-on-small-only"><em>Empty Space </em></a>
         <a href="#!" class="hide-on-med-and-up center-align"><em>Empty Space </em></a>
@@ -28,26 +28,18 @@
     </div>
   </nav>
 </div>
-  <div class="slider ">
-    <ul class="slides">
-      <li>
-        <img src="/image/Buildings.jpg" class="myimage"> <!-- random image -->
 
-      </li>
-      <li>
-        <img src="/image/Indoor wall.jpg" class="myimage " > <!-- random image -->
 
-      </li>
-      <li>
-        <img src="/image/outdoor wall.jpg" class="myimage"> <!-- random image -->
-
-      </li>
-      <li>
-        <img src="/image/vehi.jpg" class="myimage"> <!-- random image -->
-
-      </li>
-    </ul>
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="/image/Indoor wall.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="/image/outdoor wall.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="/image/Buildings.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="/image/vehi.jpg"></a>
   </div>
+
+
+
+
 </div>
 
 <div class="row">
@@ -83,15 +75,22 @@
 
 </div>
 <script>
- $(".button-collapse").sideNav();
+
 $(function(){
+   $(".button-collapse").sideNav();
   $('.slider').slider({
     height:"700px"
   });
 
 
 
+  $('.carousel.carousel-slider').carousel({fullWidth: true,time_constant: 1000});
 
+
+  $('.carousel').carousel();
+setInterval(function() {
+  $('.carousel').carousel('next');
+}, 4000); // every 2 seconds
 
 })
 </script>

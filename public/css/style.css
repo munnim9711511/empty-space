@@ -2,21 +2,21 @@ nav{
   padding: 20px;
   padding-bottom: 20px;
   height: 100px;
+
 }
-.slider{
+
+/* .slider{
   height: 50%;
   width: 100%;
 }
 .tabs-content.carousel .carousel-item { height: 100%; }
 .slides{
   height: 200px;
-}
+} */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-.myimage {
-    filter: brightness(100%);
-}
+
 
 body {
   display: flex;

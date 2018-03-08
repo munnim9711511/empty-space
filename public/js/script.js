@@ -4,13 +4,13 @@ $(function(){
   // });
  $(".button-collapse").sideNav();
 
-// setInterval(function() {
-//   $('.slider').slider({
-//     height:"700px"
-//   });
-// }, 6000); // every 2 seconds
-
-  $('.materialboxed').materialbox();
+setInterval(function() {
+   $('.slider').slider({
+     height:"700px"
+   });
+}, 6000); // every 2 seconds
+  
+  // $('.materialboxed').materialbox();
 
 
 })
