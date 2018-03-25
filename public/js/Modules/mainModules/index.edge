@@ -1,39 +1,12 @@
 
 
-<div class=" ">
-  <nav class="#424242 grey darken-3">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo hide-on-med-and-down"><em>Empty Space </em></a>
 
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-
-        <li><a href="#!/conatct-us">Advertise with us</a></li>
-        <li><a href="#!/FAQ">FAQ's</a></li>
-        <li><a href="#!/building">Building space</a></li>
-          <li><a href="#!/indoor-space">Indoor space</a></li>
-              <li><a href="#!/vehicle">Vehicles</a></li>
-              <li><a href="#!/list-space">List space</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-
-        <li><a href="#!/conatct-us">Advertise with us</a></li>
-        <li><a href="#!/FAQ">FAQ's</a></li>
-        <li><a href="#!/building">Building space</a></li>
-          <li><a href="#!/indoor-space">Indoor space</a></li>
-            <li><a href="#!/vehicle">Vehicles</a></li>
-              <li><a href="#!/list-space">List space</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="/image/Indoor wall.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="/image/outdoor wall.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="/image/Buildings.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="/image/vehi.jpg"></a>
-  </div>
-
+<div class="carousel carousel-slider">
+   <a class="carousel-item" href="#one!"><img src="/image/Buildings.jpg" class="responsive-img" width="20px"></a>
+   <a class="carousel-item" href="#two!"><img src="/image/Indoor wall.jpg" class="responsive-img"></a>
+   <a class="carousel-item" href="#three!"><img src="/image/outdoor wall.jpg" class="responsive-img"></a>
+   <a class="carousel-item" href="#four!"><img src='/image/vehi.jpg' class="responsive-img"></a>
+ </div>
 
 
 
@@ -67,23 +40,58 @@
   </div>
 
 </div>
+<div class="row"  id="c" >
+
+
+  <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+
+          <p>"Wants to make extra money for free?
+            Act now ! Call us to list your empty space for free"</p>
+        </div>
+        <div class="card-action center-align">
+          <a href="#" class="btn">List Space</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col s12 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+
+              <p>"An exiting new way to make your brand More popular.Our portfolio charsetpromised
+                 new locations for you to advertise.Explore now!"</p>
+            </div>
+            <div class="card-action center-align">
+              <a href="#" class="btn">This is a link</a>
+            </div>
+          </div>
+        </div>
+
+          <div class="col s12 m4">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Card Title</span>
+                  <p>"Wants to make extra money for free?
+                    Act now ! Call us to list your empty space for free"</p>
+                </div>
+                <div class="card-action center-align">
+                  <a href="#" class="btn">This is a link</a>
+
+                </div>
+              </div>
+            </div>
+
+</div>
+
+
 <script>
 
+
 $(function(){
-   $(".button-collapse").sideNav();
-  $('.slider').slider({
-    height:"700px"
-  });
 
-
-
-   $('.carousel.carousel-slider').carousel({fullWidth: true,time_constant: 1000});
-
-
-
-setInterval(function() {
-  $('.carousel').carousel("next");
-}, 7000); // every 2 seconds
+   $('.carousel.carousel-slider').carousel();
 
 })
 </script>

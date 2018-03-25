@@ -1,34 +1,19 @@
-/* nav{
+.Vnav{
   padding: 20px;
   padding-bottom: 20px;
-  height: 100px;
-
-} */
-
-/* .slider{
-  height: 50%;
-  width: 100%;
+  height: 15%;
 }
-.tabs-content.carousel .carousel-item { height: 100%; }
-.slides{
-  height: 200px;
-} */
+nav{
+  padding-left: 12px;
+}
 
-
-/* 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-} */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
 
+.side{
+ font-family:fantasy;
+}
 
 body {
   display: flex;

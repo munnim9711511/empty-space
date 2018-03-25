@@ -17,3 +17,7 @@ const Route = use('Route')
 
 Route.get('/','SpaceController.index');
 Route.get('/galery','SpaceController.galaryPage');
+Route.get('/wp-admin','SpaceController.adminLogin');
+Route.get('/admin-panel','SpaceController.adminPanel');
+
+Route.post('/test-validation','SpaceController.validateUser');
